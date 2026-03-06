@@ -26,6 +26,7 @@ function addQuote(quote, author) {
   quoteCount += 1;
   const h3 = document.getElementById("count");
   h3.textContent = quoteCount;
+  //h3.textContent = `${quoteCount} citations`
 }
 //creer un variable quotecount init a 0
 //ajouter 1 a la valeur de quotecount dans addQuote
